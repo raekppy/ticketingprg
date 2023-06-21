@@ -1,0 +1,252 @@
+
+Registration Function
+if (input = Registration) 
+display "Enter Name"
+read name
+display "User Name"
+display "Enter IC Number"
+read IC
+display "User IC"
+generate 6 digits code
+display 6 digits code
+
+Purchase Ticket Function
+display 1. To continue purchase ticket as member 2. To continue purchase ticket as guest
+read input
+switch (input)
+	case 1:
+		execute option 1
+		break
+	case 2:
+		execute option 2
+		break
+	default:
+		display invalid
+
+
+Member function
+display enter 6 digits code
+read code
+	if (code input equals to stored code)
+		code found = 1
+	else
+		increment counter
+if (code found equal 1)
+	display enter departure station number
+	read input
+	if (j not equal 0)
+	display enter arrival station number
+	read arrival station number
+
+if arrival station more equals to or less than departing station
+	Diffstation = -(Astation - Dstation);
+	price = Diffstation;
+display "Select time of travel"
+read time
+
+switch (time)
+case 1;
+	price = price * 0.75;
+	break
+case 2:
+	price = price * 1
+	break	
+default:
+	display "Bad input"
+
+display enter number of adult
+read adult ticket
+
+if adult ticket more than 5
+	price = (price * atick)*0.9
+
+else 	
+	price = price *atick
+
+display enter number of child ticket
+read child ticket
+
+Cprice = (Diffstation / 2)*Ctick
+price = price +Cprice
+
+while y not equals to zero
+ 	display enter payment amount
+	read amount
+
+if amount less than price
+	display invalid input
+else
+	rem = amount - price 
+	display remainder
+	c[count].reward = c[count].reward + reward
+	display cumulated points
+	break
+
+else
+	diffstation = (Astation - Dstation);
+	price = diffstation;
+
+display "Select time of travel"
+read time
+
+switch (time)
+case 1;
+	price = price * 0.75;
+	break
+case 2:
+	price = price * 1
+	break	
+default:
+	display "Bad input"
+
+display enter number of adult
+read adult ticket
+
+if adult ticket more than 5
+	price = (price * atick)*0.9
+
+else 	
+	price = price *atick
+
+display enter number of child ticket
+read child ticket
+
+Cprice = (diffstation / 2)*Ctick
+price = price +Cprice
+
+while y not equals to zero
+ 	display enter payment amount
+	read amount
+
+if amount less than price
+	display invalid input
+else
+	rem = amount - price 
+	display remainder
+	c[count].reward = c[count].reward + reward
+	display cumulated points
+	break
+
+else
+	display "Code Not Found"
+
+
+Guest Function
+
+display enter departure station number
+	read input
+	if (j not equal 0)
+	display enter arrival station number
+	read arrival station number
+
+if arrival station more equals to or less than departing station
+	Diffstation = -(Astation - Dstation);
+	price = Diffstation;
+display "Select time of travel"
+read time
+
+switch (time)
+case 1;
+	price = price * 0.75;
+	break
+case 2:
+	price = price * 1
+	break	
+default:
+	display "Bad input"
+
+display enter number of adult
+read adult ticket
+
+if adult ticket more than 5
+	price = (price * atick)*0.9
+
+else 	
+	price = price *atick
+
+display enter number of child ticket
+read child ticket
+
+Cprice = (Diffstation / 2)*Ctick
+price = price +Cprice
+
+while y not equals to zero
+ 	display enter payment amount
+	read amount
+
+if amount less than price
+	display invalid input
+else
+	rem = amount - price 
+	display remainder
+	break
+
+else
+	diffstation = (Astation - Dstation);
+	price = diffstation;
+
+display "Select time of travel"
+read time
+
+switch (time)
+case 1;
+	price = price * 0.75;
+	break
+case 2:
+	price = price * 1
+	break	
+default:
+	display "Bad input"
+
+display enter number of adult
+read adult ticket
+
+if adult ticket more than 5
+	price = (price * atick)*0.9
+
+else 	
+	price = price *atick
+
+display enter number of child ticket
+read child ticket
+
+Cprice = (diffstation / 2)*Ctick
+price = price +Cprice
+
+while y not equals to zero
+ 	display enter payment amount
+	read amount
+
+if amount less than price
+	display invalid input
+else
+	rem = amount - price 
+	display remainder
+	break
+
+else
+	display "Code Not Found"
+
+
+Reward Function
+if (input = Check Reward)
+display "Please Enter Your 6 digits code"
+read code
+
+
+Main Function
+while (done not equals to 1)
+	display 1. Registration 2. Check Reward 3. Purchase Ticket
+	read option
+		switch (option)
+		case 1:
+			execute option 1
+			break
+		case 2:
+			execute option 2
+			break;
+		case 3:
+			execute option 3
+			break
+		default:
+			display invalid

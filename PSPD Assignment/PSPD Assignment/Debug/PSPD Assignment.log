@@ -1,0 +1,37 @@
+﻿Build started 28/4/2016 12:50:56 PM.
+     1>Project "C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\PSPD Assignment\PSPD Assignment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt PSPD.c
+         PSPD.c
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(25): warning C4013: 'system' undefined; assuming extern returning int
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(36): warning C4013: 'member' undefined; assuming extern returning int
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(39): warning C4013: 'guest' undefined; assuming extern returning int
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(127): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(158): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(54): warning C4101: 'pts' : unreferenced local variable
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(204): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(221): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(235): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(252): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(258): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(269): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(194): warning C4101: 'pts' : unreferenced local variable
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(189): warning C4101: 'code_input' : unreferenced local variable
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(299): warning C4101: 'c_reward' : unreferenced local variable
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(185): warning C4716: 'member' : must return a value
+     1>c:\users\eric\documents\visual studio 2013\projects\pspd assignment\pspd assignment\pspd.c(295): warning C4716: 'guest' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\Debug\PSPD Assignment.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\Debug\PSPD Assignment.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\Debug\PSPD Assignment.lib" /MACHINE:X86 Debug\PSPD.obj
+         PSPD Assignment.vcxproj -> C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\Debug\PSPD Assignment.exe
+     1>Done Building Project "C:\Users\Eric\documents\visual studio 2013\Projects\PSPD Assignment\PSPD Assignment\PSPD Assignment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83
